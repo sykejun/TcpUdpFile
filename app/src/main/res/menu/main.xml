@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_scan_qrcode"
+        android:title="@string/action_link"
+        android:icon="@mipmap/link"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_transmission_manager"
+        android:title="@string/action_transmission_manager"
+        android:icon="@mipmap/transform"
+        app:showAsAction="always"
+        />
+</menu>

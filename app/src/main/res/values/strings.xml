@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">文件传输</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LanTransmission</string>
+    <string name="nav_header_subtitle">快速多平台局域网数据共享</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_header_user_linked">连接管理</string>
+    <string name="action_transmission_manager">传输管理</string>
+    <string name="action_scan_qrcode">扫描二维码</string>
+    <string name="nav_header_setting">设置</string>
+    <string name="nav_header_share">分享</string>
+    <string name="nav_header_about">关于</string>
+    <string name="nav_header_group_other">其他</string>
+    <string name="fab_title">共享</string>
+    <string name="fab_file">文件</string>
+    <string name="fab_text">文字</string>
+    <string name="fab_video">视频</string>
+    <string name="fab_image">图片</string>
+    <string name="fab_clipboard">粘贴板</string>
+    <string name="action_link">连接设备</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@color/colorLightGray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/computer"
+            android:background="@color/colorPrimary"
+            android:scaleType="center"/>
+        <TextView
+            android:id="@+id/text_equipmentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/icon"
+            android:text="小米手机"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_Ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/icon"
+            android:text="ip地址：" />
+
+        <TextView
+            android:id="@+id/text_equipmentAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/text_Ip"
+            android:text="***.***.***.***" />
+
+        <TextView
+            android:id="@+id/text_equipmentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="web/android" />
+
+    </RelativeLayout>
+
+</LinearLayout>

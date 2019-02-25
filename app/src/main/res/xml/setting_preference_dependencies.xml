@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="用户">
+
+        <EditTextPreference
+            android:key="setting_user_name"
+            android:title="昵称"
+            android:summary="设置本机昵称，方便其他设备辨识"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="默认下载路径">
+        <Preference
+            android:key="setting_transmission_file"
+            android:title="文件下载路径"/>
+        <Preference
+            android:key="setting_transmission_video"
+            android:title="视频下载路径"/>
+        <Preference
+            android:key="setting_transmission_image"
+            android:title="图片下载路径"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

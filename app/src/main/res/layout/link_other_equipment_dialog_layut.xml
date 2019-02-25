@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:text=""
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="201dp"
+        tools:text="请输入您要连接设备的IP地址" />
+
+    <EditText
+        android:id="@+id/inputareaofip"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="在此输入IP地址"
+        android:textCursorDrawable="@drawable/cursor_color"  />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
