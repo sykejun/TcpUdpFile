@@ -87,6 +87,7 @@ public class FileList_Adapter extends RecyclerView.Adapter<FileList_Adapter.View
 //                if (null!=onItemClickListener){
 //                    onItemClickListener.onClick(transmission);
 //                }
+
 //            }
 //        });
         holder.fileName.setText(transmission.getFileName());
